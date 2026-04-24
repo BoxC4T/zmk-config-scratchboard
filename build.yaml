@@ -19,4 +19,4 @@
 #
 ---
 include:
-  - board: scratchpad
+  - board: nice_nano_v2
