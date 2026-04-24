@@ -19,7 +19,5 @@
 #
 ---
 include:
-  - board: nice_nano
-    shield: scratchpad_left
-  - board: nice_nano
-    shield: scratchpad_right
+  - board: scratchpad_left
+  - board: scratchpad_right
