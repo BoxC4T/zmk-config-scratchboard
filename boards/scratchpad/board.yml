@@ -4,7 +4,6 @@
 
 board:
   name: scratchpad
-  vendor: boxc4t
   socs:
     - name: nrf52840
 

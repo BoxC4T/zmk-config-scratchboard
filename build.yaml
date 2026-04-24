@@ -19,5 +19,4 @@
 #
 ---
 include:
-  - board: scratchpad_left
-  - board: scratchpad_right
+  - board: scratchpad
