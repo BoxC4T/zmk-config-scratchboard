@@ -1,30 +1,17 @@
-# This file was generated from a template. Edit it to match your keyboard.
-# See https://docs.zephyrproject.org/4.1.0/hardware/porting/board_porting.html#write-kconfig-files
-# for more information.
+if SHIELD_SCRATCHBOARD_LEFT
 
-if BOARD_SCRATCHPAD_LEFT
-
+# Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "scratchpad"
+    default "Scratchboard"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif # BOARD_SCRATCHPAD_LEFT
+endif
 
-if BOARD_SCRATCHPAD_LEFT || BOARD_SCRATCHPAD_RIGHT
+if SHIELD_SCRATCHBOARD_LEFT || SHIELD_SCRATCHBOARD_RIGHT
 
-if USB
-
-config USB_NRFX
+config ZMK_SPLIT
     default y
 
-config USB_DEVICE_STACK
-    default y
-
-endif # USB
-
-config BT_CTLR
-    default BT
-
-endif # BOARD_SCRATCHPAD_LEFT || BOARD_SCRATCHPAD_RIGHT
+endif
