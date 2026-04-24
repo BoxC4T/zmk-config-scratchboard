@@ -3,29 +3,22 @@
 # for instructions.
 
 file_format: "1"
-id: scratchpad
-name: scratchpad
-type: board
-arch: arm
+id: scratchboard
+name: scratchboard
+type: shield
 
 # Set this to a URL that documents the keyboard.
-url: https://example.com
+url: https://github.com/BoxC4T/zmk-config-scratchboard
 
 # Add any features your keyboard supports here.
 # See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
 features:
   - keys
-  - studio  # Remove this line if your keyboard will not support ZMK Studio
+  - studio # Remove this line if your keyboard will not support ZMK Studio
 
-outputs:
-  - usb
-  - ble
+requires:
+  - pro_micro
 
 siblings:
-  - scratchpad_left
-  - scratchpad_right
-# If your board has multiple revisions in its board.yml, create a matching list here:
-# revisions:
-#   - 2.0.0
-#   - 1.0.0
-# default_revision: 2.0.0
+  - scratchboard_left
+  - scratchboard_right
