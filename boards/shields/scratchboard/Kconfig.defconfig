@@ -1,7 +1,7 @@
 if SHIELD_SCRATCHBOARD_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "testboard"
+    default "scratchboard"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
