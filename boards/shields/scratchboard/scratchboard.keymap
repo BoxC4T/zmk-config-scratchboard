@@ -12,12 +12,12 @@
 
         default_layer {
            bindings = <
-                             &kp A  &kp B  &kp B  &kp B    &kp C  &kp C  &kp C  &kp D
-                &kp A &kp N1 &kp N2 &kp N3 &kp N4 &kp N5   &kp C  &kp C  &kp C  &kp D  &kp D  &kp A
-                &kp A &kp Q  &kp W  &kp E  &kp R  &kp T    &kp C  &kp C  &kp C  &kp D  &kp D  &kp D
-                &kp A &kp A  &kp S  &kp D  &kp F  &kp G    &kp G  &kp G  &kp G  &kp H  &kp H  &kp H
-                &kp A &kp Z  &kp X  &kp C  &kp V  &kp B    &kp G  &kp G  &kp G  &kp H  &kp H  &kp H
-                      &kp E  &kp E  &kp F  &kp F  &kp F    &kp G  &kp G  &kp G  &kp H  &kp H
+                                     &kp A  &kp B      &kp B      &kp B      &kp C  &kp C  &kp C  &kp D
+                &kp TILDE &kp N1     &kp N2 &kp N3     &kp N4     &kp N5     &kp C  &kp C  &kp C  &kp D  &kp D  &kp A
+                &kp PLUS  &kp Q      &kp W  &kp E      &kp R      &kp T      &kp C  &kp C  &kp C  &kp D  &kp D  &kp D
+                &kp MINU  &kp A      &kp S  &kp D      &kp F      &kp G      &kp G  &kp G  &kp G  &kp H  &kp H  &kp H
+                &kp A     &kp Z      &kp X  &kp C      &kp V      &kp B      &kp G  &kp G  &kp G  &kp H  &kp H  &kp H
+                          &kp LCTRL  &kp E  &kp LSHFT  &kp SPACE  &kp RET    &kp G  &kp G  &kp G  &kp H  &kp H
             >;
         };
     };
